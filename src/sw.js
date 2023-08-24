@@ -60,6 +60,7 @@ import {
           cache.put( event.request, response ); // guardo la req en el cache si alguien ahce esta request responde esto
         });
 
+        
         return response.clone();
       })
       .catch( err =>{
